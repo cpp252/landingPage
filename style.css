@@ -1,0 +1,513 @@
+/* Definición de la paleta de colores en :root */
+:root {
+  --color-azul: #007bff; /* Azul */
+  --color-verde: #00a74a; /* Verde */
+  --color-verdeHover:#7ED6A3;
+  --color-rosa: #dd7ca1; /* Rosa */
+  --color-gris: #333; /* Gris oscuro */
+  --color-blanco: #fff; /* Blanco */
+}
+
+/* Estilos para el body y el texto global */
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--color-blanco);
+  color: var(--color-gris);
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para el header */
+header {
+  background-color: var(--color-azul); 
+  text-align: center;
+  width: 100%;
+}
+
+
+/* SECCION 1 ATENCIÓN */
+/* Estilos para el título principal en el header */
+header h1 {
+  font-size: 36px;
+  color: var(--color-blanco); /* Texto en color blanco */
+  margin: 0; /* Elimina el margen superior e inferior del título */
+}
+
+/* Estilos para la sección de título */
+.container-titulo-wrap{
+  background-color: var(--color-rosa); /* Color de fondo */
+  color: var(--color-blanco); /* Color de texto */
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.container-titulo {
+  background-color: var(--color-blanco);  
+}
+
+.titulo{
+  text-align: center; /* Centrar el contenido en la sección */
+}
+
+.titulo h1 {
+  font-size: 36px;
+  color: var(--color-azul); /* Color azul llamativo */
+}
+
+.titulo h2 {
+  font-size: 24px;
+  color: var(--color-verdeHover); /* Color verde */
+  margin-top: 15px; /* Mayor espacio superior para el subtítulo */
+}
+
+.titulo p {
+  font-size: 18px;
+  color: var(--color-gris); /* Color gris oscuro para el texto */
+  margin-top: 15px;
+}
+
+.container-titulo img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+label{
+  color: black;
+}
+
+
+/* Estilos para el formulario */
+.formulario {
+  background-color: var(--color-blanco);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.llamadoAccion {
+  justify-content: center;
+  text-align: center;
+}
+
+.llamadoAccion p {
+  font-size: 17px;
+  color: var(--color-rosa); 
+}
+
+/* Estilos para el botón */
+.btn-primary {
+  background-color: var(--color-azul); 
+  border-color: var(--color-azul);
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; 
+  border-color: #0056b3;
+}
+
+/* Estilos para los campos de entrada de texto */
+.btnRegistrarse {
+  text-align: center;
+}
+
+/* SECCION 2 INTERES */
+  .container-interes-wrap {
+    background-color: var(--color-azul);
+    color: var(--color-blanco);
+    padding: 40px;
+    border-radius: 10px;
+  }
+  
+  .container-interes h3 {
+    font-size: 28px;
+    margin-top: 0;
+  }
+  
+  .container-interes p {
+    font-size: 16px;
+  }
+  
+  .container-interes ul {
+    padding-left: 20px;
+  }
+  
+  .container-interes img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+/* Estilos para la sección "Generar Deseo" */
+.container-deseo-wrap {
+  background-color: var(--color-rosa); 
+  color: var(--color-blanco);
+  padding: 40px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.container-deseo h3 {
+  font-size: 28px;
+  margin-top: 0;
+}
+
+.container-deseo ul li {
+  font-size: 18px;
+  margin-bottom: 10px;
+  align-items: center;
+  
+}
+
+.container-deseo ul li i {
+  font-size: 24px;
+  color: var(--color-azul);
+  
+}
+
+.container-deseo img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.btnQuiero{
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.container-deseo-wrap .btn-primary {
+  background-color: var(--color-verde); 
+  border-color: var(--color-verde); 
+  font-size: 20px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.container-deseo-wrap .btn-primary:hover {
+  background-color: var(--color-verdeHover);
+}
+
+/* Estilos para la sección "Acción" */
+.container-accion-wrap {
+  background-color: var(--color-azul);
+  color: var(--color-blanco); 
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.container-accion h3 {
+  font-size: 28px;
+  margin-top: 0;
+}
+
+.container-accion p {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+/* Estilos para el botón "Regístrate Ahora" */
+.container-accion-wrap .btn-primary {
+  background-color: var(--color-verde); 
+  border-color: var(--color-verde); 
+  font-size: 20px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.container-accion-wrap .btn-primary:hover {
+  background-color: var(--color-verdeHover); 
+}
+
+    /* Estilos para tablets */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .container-titulo img {
+    max-width: 30%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .container-interes .img {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .container-interes img {
+    max-width: 45%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .container-deseo .img {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .container-deseo img {
+    max-width: 45%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  }
+
+    /* Estilos para laptops */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    
+
+  /* Estilos para el SECCION1 TITULO */
+  
+  .container-titulo-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start; 
+    justify-content: center;
+    padding-right: 40px;
+    padding-left: 20px;
+  }
+  .container-titulo img {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .titulo {
+    width: 50%;
+    background-color: var(--color-rosa);
+    border-radius: 10px;
+    color: var(--color-blanco);
+  }
+
+  .titulo h1 {
+    font-size: 30px;
+    color: var(--color-azul); 
+  }
+
+  .titulo h2 {
+    font-size: 20px;
+    color: var(--color-verdeHover); 
+    margin-top: 15px; 
+  }
+
+  .titulo p {
+    font-size: 15px;
+    color: var(--color-gris);
+    margin-top: 15px;
+  }
+    
+  .col-md-4 {
+    width: 45% !important; 
+  }
+
+
+/* Estilos para el SECCION2 INTERES */
+.container-interes {
+  background-color: var(--color-blanco);
+}
+
+.container-interes-wrap {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.intereses {
+  flex-basis: 50%; 
+  padding: 0 20px;
+}
+
+.container-interes h3 {
+  font-size: 24px;
+}
+
+.container-interes p {
+  font-size: 16px;
+}
+
+.container-interes ul {
+  padding-left: 20px;
+}
+
+.img {
+  flex-basis: 50%;
+  text-align: center; 
+}
+
+/* SECCION3 DESEO */
+
+.container-deseo {
+  background-color: var(--color-blanco); 
+}
+
+.container-deseo-wrap {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.deseo {
+  flex-basis: 50%; 
+  padding: 0 20px;
+}
+
+.container-deseo h3 {
+  font-size: 24px;
+}
+
+.container-deseo p {
+  font-size: 16px;
+}
+
+.container-deseo ul {
+  padding-left: 20px;
+}
+
+/* Estilos para el SECCION4 ACCION */
+.container-accion {
+  background-color: var(--color-azul); 
+  color: var(--color-blanco);
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Estilo para el contenido dentro de container-accion */
+.container-accion > .container-accion-wrap > div {
+  width: 100%; 
+  text-align: center; 
+}
+
+}
+
+    /* Estilos para monitores */
+@media screen and (min-width: 992px) {
+    /* Estilos para el SECCION1 TITULO */
+  
+  .container-titulo-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+    justify-content: center;
+    padding-right: 40px;
+    padding-left: 20px;
+  }
+  .container-titulo img {
+    max-width: 40%;
+    height: auto;
+
+  }
+
+  .titulo {
+    width: 50%;
+    background-color: var(--color-rosa);
+    border-radius: 10px;
+    color: var(--color-blanco);
+  }
+
+  .titulo h1 {
+    font-size: 30px;
+    color: var(--color-azul);
+  }
+
+  .titulo h2 {
+    font-size: 20px;
+    color: var(--color-verdeHover); 
+    margin-top: 15px; 
+  }
+
+  .titulo p {
+    font-size: 15px;
+    color: var(--color-gris); 
+    margin-top: 15px;
+  }
+   
+
+
+/* Estilos para el SECCION2 INTERES */
+/* Estilos para la sección de interés */
+.container-interes {
+  background-color: var(--color-blanco); 
+}
+
+.container-interes-wrap {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.intereses {
+  flex-basis: 50%;
+  padding: 0 20px; 
+}
+
+.container-interes h3 {
+  font-size: 24px;
+}
+
+.container-interes p {
+  font-size: 16px;
+}
+
+.container-interes ul {
+  padding-left: 20px;
+}
+
+.container-interes .img {
+  flex-basis: 50%; 
+  text-align: center; 
+}
+
+/* Estilos para el SECCION3 DESEO */
+
+.container-deseo {
+  background-color: var(--color-blanco); 
+}
+
+.container-deseo-wrap {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.deseo {
+  flex-basis: 50%; 
+  padding: 0 20px;
+}
+
+.container-deseo h3 {
+  font-size: 24px;
+}
+
+.container-deseo p {
+  font-size: 16px;
+}
+
+.container-deseo .img {
+  flex-basis: 40%; 
+  text-align: center;
+}
+
+
+/* Estilos para el SECCION4 ACCION */
+.container-accion {
+  background-color: var(--color-azul);
+  color: var(--color-blanco); 
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Estilo para el contenido dentro de container-accion */
+.container-accion > .container-accion-wrap > div {
+  width: 100%; 
+  text-align: center; 
+}
+}
